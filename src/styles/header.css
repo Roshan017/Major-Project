@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.header-box {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.header-title {
+  font-size: 65px !important;
+  letter-spacing: 3px;
+  font-weight: bold;
+  position: relative;
+  color: black;
+  left: 20px;
+}
+.header-social-icon {
+  height: 30px;
+}
+.header-social-text {
+  font-size: 15px;
+}
+.social-div {
+  width: 300px;
+}
+.logo {
+  border-radius: 10px;
+}
+.nav-btn {
+  border: none !important;
+}

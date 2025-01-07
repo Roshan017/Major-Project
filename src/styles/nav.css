@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.nav-btn {
+  position: relative !important;
+  left: 90px;
+  width: 550px !important;
+  height: 70px !important; /* Adjust the button's height */
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000 !important;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.nav-box {
+}
+
+.nav-btn:hover {
+  background: rgb(186, 211, 85) !important;
+  color: black !important; /* Change background color on hover */
+}
+.nav-stack {
+  width: 100%; /* Ensures the stack occupies full width of the container */
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    font-size: 10px;
+    width: 100% !important; /* Makes buttons stretch full width on smaller screens */
+    font-size: 16px; /* Slightly reduce font size on smaller screens */
+  }
+}
+
+.nav-btn:active {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .nav-btn {
+    padding: 0.25em 0.75em;
+  }
+}

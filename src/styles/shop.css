@@ -1,0 +1,71 @@
+.search-bar {
+  color: black !important;
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  border: 2px solid black !important; /* Adds a visible white border */
+  border-radius: 4px; /* Optional: Adds rounded corners */
+  padding: 8px; /* Optional: Adds padding for better spacing */
+}
+.shop-box {
+  background-color: rgb(255, 255, 255);
+}
+.shop-select {
+  border: 1px solid black !important;
+}
+.cart-counter {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  position: relative;
+  left: 17px;
+  bottom: 3px;
+  padding-right: 4px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
+.cart-icon {
+  background-color: transparent !important;
+  font-size: 40px !important;
+}
+.cart-count {
+  background-color: white;
+  height: 25px;
+  width: 20px;
+  position: relative;
+  right: 10px;
+  bottom: 3px;
+
+  padding-left: 5px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.shop-product-box {
+  position: relative;
+  top: 20px;
+  border-radius: 20px !important;
+  background-color: rgb(238, 233, 224) !important;
+}
+.product-rated {
+  position: relative;
+  left: 4px;
+  bottom: 3px;
+  font-size: 15px;
+  margin-left: 4px;
+}
+.product-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.like-icon {
+  background: transparent !important;
+  font-size: 25px !important;
+  position: relative;
+  left: 10px;
+  top: 3px;
+  color: rgb(189, 145, 145);
+}
